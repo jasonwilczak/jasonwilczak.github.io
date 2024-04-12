@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - jasonwilczak
+  - lumetix
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - jasonwilczak/jasonwilczak.github.io
+  - jasonwilczak/vuetify-simple-wizard
+  - jasonwilczak/jslogger
+  - jasonwilczak/cxagilecapacitifier
+  - jasonwilczak/jshome
+  - jasonwilczak/jsnodeseed
