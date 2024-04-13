@@ -1,199 +1,357 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Jason Wilczak",
+    "label": "AVP of Software Engineering at Travelers & Freelance Software Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "jason.wilczak@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "Hardworking, self-driven, deterministic individual always looking for a challenge.  I am a software engineer with the thirst for knowledge and a heavy desire to learn the latest technologies.  My passion lays with developing new applications and solutions with emerging technologies.  That being said, I sincerely hope to be able to work on a game at some point in my career.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
       "countryCode": "US",
-      "region": "California"
+      "address": "United States"
     },
     "profiles": [
       {
+        "network": "LinkedIn",
+        "username": "jasonwilczak",
+        "url": "https://www.linkedin.com/in/jasonwilczak/"
+      },
+      {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "JasonWilczak",
+        "url": "https://twitter.com/JasonWilczak"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Travelers",
+      "position": "Assistant Vice President - Software Engineering",
+      "startDate": "2023-04-30",
+      "endDate": "",
+      "highlights": [],
+      "summary": "As an AVP of Software Engineering, I run the API Platform circle and the Software Engineering Chapter for our Organizational Unit.",
+      "url": "https://www.linkedin.com/company/travelers/",
+      "location": "Connecticut, United States"
+    },
     {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Travelers",
+      "position": "Senior Director of Software Engineering",
+      "startDate": "2021-09-30",
+      "endDate": "",
+      "highlights": [],
+      "summary": "I am now responsible for the API Strategy of Travelers.  My circle is tasked with paving the direction of API development and technology for the future of the company.  Our goal is to find the right balance of API standards and governance for all engineers leveraging AWS and MuleSoft.\n\nIn addition to my daily circle lead focus, I also manage the TLDP program and support the Engineering Chapter for our business group.  I believe building a solid engineering culture needs to be the foundation of any company looking to remain competitive in the digital landscape.",
+      "url": "https://www.linkedin.com/company/travelers/",
+      "location": "Hartford, Connecticut, United States"
+    },
+    {
+      "name": "Travelers",
+      "position": "Lead Software Engineer",
+      "startDate": "2017-04-30",
+      "endDate": "2021-11-30",
+      "highlights": [],
+      "summary": "Lead Software Engineer on the Customer Access and Identity portfolio.  Technologies used include: C#, JavaScript, React, HTML5/CSS3, ASP.NET MVC, .NET Core, WebAPI, WCF, SQL Server, NodeJS, Express, Mongo, AWS, PCF, UCD, Jenkins, SVN, Github, Visual Studio (full and Code), Okta, MuleSoft, OpenShift, Rally, and Confluence\n\nAlso responsible for Engineering culture activities around development of engineers, quality of life, onboarding, etc.  Ran the first Engineer community of practice for our area and helped pave the foundation for the enterprise community of practice.",
+      "url": "https://www.linkedin.com/company/travelers/",
+      "location": "Hartford, Connecticut"
+    },
+    {
+      "name": "Travelers",
+      "position": "Senior Software Engineer",
+      "startDate": "2017-04-30",
+      "endDate": "2018-01-31",
+      "highlights": [],
+      "summary": "Senior Software Engineer in charge of the Agent portal for external facing agents.  Used C#, Javascript, HTML, CSS, Visual Studio, SQL Server, PCF, IIS, Rally, and Confluence.",
+      "url": "https://www.linkedin.com/company/travelers/",
+      "location": "Hartford, Connecticut, United States"
+    },
+    {
+      "name": "ReadyEDI",
+      "position": "Software Engineer",
+      "startDate": "2018-01-31",
+      "endDate": "2023-04-30",
+      "highlights": [],
+      "summary": "Freelance contract work for ReadyEDI.  Responsible for web based solutions leveraging C# MVC and WCF as well as VueJS for the front end.  Primary responsibility includes building/maintaining a custom CMS platform built, custom form and input screens, components, workflows and designing the look and feel of the website using Vuetify.",
+      "url": "",
+      "location": "Massachusetts, United States"
+    },
+    {
+      "name": "Avanade",
+      "position": "Sr Software Developer",
+      "startDate": "2013-03-31",
+      "endDate": "2017-03-31",
+      "highlights": [],
+      "summary": "Software developer responsible for .NET technologies for various clients and projects.  Strong focus in JavaScript and ASP.NET (MVC) skill sets.",
+      "url": "https://www.linkedin.com/company/avanade/"
+    },
+    {
+      "name": "KTI",
+      "position": "Software Developer",
+      "startDate": "2010-08-31",
+      "endDate": "2013-03-31",
+      "highlights": [],
+      "summary": "Software Development using C# .Net.  Projects have ranged from middleware development using XML schemas to asp.net deeply interactive web applications.  The current project is using Silverlight 4 (eventually 5) with the Prism framework and the MVVM pattern to develop a large scale client application.\nMost of my work is involved on the User Interface logistics, not the graphic design work.  I also maintain some service side logic and help maintain the databases (SQL Server).  When it is time, I also do the application roll-out/installs into the customer environment and provide training and high level support.",
+      "url": "https://www.linkedin.com/company/kti/",
+      "location": "CT, USA"
+    },
+    {
+      "name": "technical metal finishing",
+      "position": "Technical Engineer",
+      "startDate": "2006-10-31",
+      "endDate": "2010-08-31",
+      "highlights": [],
+      "summary": "Mechanical Engineering with regards to aerospace engine parts.",
+      "url": ""
+    },
+    {
+      "name": "Technical Metal Finishing",
+      "position": "Machinist",
+      "startDate": "2006-01-31",
+      "endDate": "2008-01-31",
+      "highlights": [],
+      "summary": "I ran the machines that would handle the surface treatments of the aerospace engine parts.",
+      "url": "",
+      "location": "Wallingford, CT"
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "SetFocus",
+      "area": ".Net",
+      "studyType": ".Net Certificate",
+      "startDate": "2008-12-31",
+      "endDate": "2009-12-31",
+      "score": "B",
+      "courses": []
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
+  "awards": [],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "MCPS: Microsoft Certified Professional",
+      "issuer": "Microsoft",
+      "startDate": "2014-06-30",
+      "url": "http://www.microsoft.com/learning/en-us/certification-overview.aspx"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "MS: Programming in HTML5 with JavaScript and CSS3",
+      "issuer": "Microsoft",
+      "startDate": "2014-06-30",
+      "url": "http://www.microsoft.com/learning/en-us/certification-overview.aspx"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "MS: Essentials of Developing Windows Store Apps using HTML5 and JavaScript",
+      "issuer": "Microsoft",
+      "startDate": "2015-08-31",
+      "url": "http://www.microsoft.com/learning/en-us/certification-overview.aspx"
     }
   ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
+  "publications": [],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Vue.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MuleSoft Anypoint Platform",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": ".NET Core",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ASP.NET",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Computer Hardware",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TFS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Windows 7",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Windows 8.1",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": ".NET",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AngularJS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Agile Methodologies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Gulp.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "WinJS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Visual Studio",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C#",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Model-view-viewmodel (MVVM)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ASP.NET MVC",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Development Life Cycle (SDLC)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Chrome Extensions",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Silverlight",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "REST APIs",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "XAML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "XML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MongoDB",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Applications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Universal Apps",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "WCF",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Windows 10",
+      "level": "",
+      "keywords": []
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "fluency": "Native Speaker"
     }
   ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
+  "interests": [],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Swapna Varghese",
+      "reference": "Jason is very creative and intelligent  and a very good team member to work with. He has good technical capabilities and a techie with good logical and analytical skills in Software design and development."
     }
   ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
 }
