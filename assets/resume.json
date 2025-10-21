@@ -1,0 +1,357 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+        "name": "Jason Wilczak",
+        "label": "AVP of Software Engineering at Travelers & Freelance Software Engineer",
+        "image": "",
+        "email": "jason.wilczak@gmail.com",
+        "phone": "",
+        "url": "https://jason.wilczak.me",
+        "summary": "Hardworking, self-driven, deterministic individual always looking for a challenge.  I am a software engineer with the thirst for knowledge and a heavy desire to learn the latest technologies.  My passion lays with developing new applications and solutions with emerging technologies.  That being said, I sincerely hope to be able to work on a game at some point in my career.",
+        "location": {
+            "countryCode": "US",
+            "address": "United States"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "jasonwilczak",
+                "url": "https://www.linkedin.com/in/jasonwilczak/"
+            },
+            {
+                "network": "Twitter",
+                "username": "JasonWilczak",
+                "url": "https://twitter.com/JasonWilczak"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Travelers",
+            "position": "Enterprise Engineering Chapter Lead - Assistant Vice President of Software Engineering",
+            "startDate": "2025-10-10",
+            "endDate": "",
+            "highlights": [
+                "Lead and collaborated on the Future of Engineering initiative for Travelers Technology"
+            ],
+            "summary": "Technology transformation leader driving operational excellence and strategic initiatives across software engineering teams. Focuses on strategic roadmaps, OKR accountability, DevSecOps adoption, and AI-driven SDLC modernization. Collaborates with enterprise partners and chapter leads to foster innovation and continuous learning.",
+            "url": "https://www.linkedin.com/company/travelers/",
+            "location": "Connecticut, United States"
+        },
+        {
+            "name": "Travelers",
+            "position": "Enterprise API & Event Platform Lead - Assistant Vice President of Software Engineering",
+            "startDate": "2023-04-30",
+            "endDate": "",
+            "highlights": [
+                "Enterprise API & Event Platform for Governance, Security and Reusability including https://developer.travelers.com",
+                "Championed and lead scale of our enterprise Kafka based event platform across 500+ applications",
+                "Responsible for multiple tool adoptions across the API landscape to support security, design and experience",
+                "Partnered to develop a framework for product based mindsets around APIs including lifecycle management, developer experience and business alignment"
+            ],
+            "summary": "As an AVP of Software Engineering, I run the API & Event Platform circle for the enterprise. Our mission is to build a platform for engineers to drive API products, re-usability, consistency and quality with a domain focused lens.",
+            "url": "https://www.linkedin.com/company/travelers/",
+            "location": "Connecticut, United States"
+        },
+        {
+            "name": "Travelers",
+            "position": "Org Engineering Chapter Lead, Enterprise Best Practices & Experiences Lead - Lead Engineer -> Assistant Vice President of Software Engineering",
+            "startDate": "2017-04-30",
+            "endDate": "2025-12-01",
+            "highlights": [
+                "Established DevDays that focus on continuous learning and knowledge sharing across engineering teams",
+                "Enabled a hub and spoke model for engineering communities of practice to scale best practices and foster collaboration to the enterprise",
+                "Supported the Engineer Development Program as well as help it update and modernize through 2 major iterations",
+                "Supported cross enterprise initiatives around engineering experience to improve pain points and SDLC efficiency",
+                "Executed build of approved Engineeering Assistant to provide accurate practices and guidance to engineers across the enterprise via GenAI"
+            ],
+            "summary": "Pitched and received approval to focus on the Engineering culture activities around development of engineers, quality of life, onboarding, etc. Ran the first Engineer community of practice for our area and helped pave the foundation for the enterprise community of practice.",
+            "url": "https://www.linkedin.com/company/travelers/",
+            "location": "Connecticut, United States"
+        },
+        {
+            "name": "Travelers",
+            "position": "Enterprise API Platform - Senior Director of Software Engineering",
+            "startDate": "2021-09-30",
+            "endDate": "",
+            "highlights": [
+                "Worked to build metrics and controls around our API platform tools to control cost and usage",
+                "Built an enterprise API council to help govern and drive standards across all business units",
+                "Partnered with security and architecture to build guardrails and standards for API security and design",
+                "Designed an automation process to drive consistency and quality across all API development including design, security and developer experience"
+            ],
+            "summary": "Responsible for the API Strategy of Travelers.  These teams are tasked with paving the direction of API development and technology for the future of the company.  Our goal is to find the right balance of API standards and governance for all engineers leveraging AWS and MuleSoft.",
+            "url": "https://www.linkedin.com/company/travelers/",
+            "location": "Hartford, Connecticut, United States"
+        },
+        {
+            "name": "Travelers",
+            "position": "Customer Access & Identity Management - Lead Software Engineer",
+            "startDate": "2017-04-30",
+            "endDate": "2021-11-30",
+            "highlights": [],
+            "summary": "Lead Software Engineer on the Customer Access and Identity portfolio.  Technologies used include: C#, JavaScript, React, HTML5/CSS3, ASP.NET MVC, .NET Core, WebAPI, WCF, SQL Server, NodeJS, Express, Mongo, AWS, PCF, UCD, Jenkins, SVN, Github, Visual Studio (full and Code), Okta, MuleSoft, OpenShift, Rally, and Confluence\n\nAlso responsible for Engineering culture activities around development of engineers, quality of life, onboarding, etc.  Ran the first Engineer community of practice for our area and helped pave the foundation for the enterprise community of practice.",
+            "url": "https://www.linkedin.com/company/travelers/",
+            "location": "Hartford, Connecticut"
+        },
+        {
+            "name": "Travelers",
+            "position": "External Agent Platform - Senior Software Engineer",
+            "startDate": "2017-04-30",
+            "endDate": "2018-01-31",
+            "highlights": [
+                "Responsible for the redisign of the Agent Portal - https://foragents.travelers.com",
+                "Designed and implemented data driven UI components to improve reusability and decrease time to market for new features",
+                "Designed and implemented a common CMS component platform to enable dynamic content management for business users",
+                "Constructed a simplified deployment process for an internal view for training and validation of content changes using a single code base"
+            ],
+            "summary": "Senior Software Engineer in charge of the Agent portal for external facing agents.  Used C#, Javascript, HTML, CSS, Visual Studio, SQL Server, PCF, IIS, Rally, and Confluence.",
+            "url": "https://www.linkedin.com/company/travelers/",
+            "location": "Hartford, Connecticut, United States"
+        },
+        {
+            "name": "ReadyEDI",
+            "position": "Software Engineer",
+            "startDate": "2018-01-31",
+            "endDate": "2023-04-30",
+            "highlights": [],
+            "summary": "Freelance contract work for ReadyEDI.  Responsible for web based solutions leveraging C# MVC and WCF as well as VueJS for the front end.  Primary responsibility includes building/maintaining a custom CMS platform built, custom form and input screens, components, workflows and designing the look and feel of the website using Vuetify.",
+            "url": "",
+            "location": "Massachusetts, United States"
+        },
+        {
+            "name": "Avanade",
+            "position": "Sr Software Developer",
+            "startDate": "2013-03-31",
+            "endDate": "2017-03-31",
+            "highlights": [
+                "Developed prospecting tools for teams to find and track potential clients",
+                "Developed internal tools to help manage resources and projects across the company"
+            ],
+            "summary": "Software developer responsible for .NET technologies for various clients and projects.  Strong focus in JavaScript and ASP.NET (MVC) skill sets.",
+            "url": "https://www.linkedin.com/company/avanade/"
+        },
+        {
+            "name": "KTI",
+            "position": "Software Developer",
+            "startDate": "2010-08-31",
+            "endDate": "2013-03-31",
+            "highlights": [
+                "Developed logic to process citation data into federal XML schemas and PDF outputs",
+                "Developed interactive web applications for remote officers to input citation data",
+                "Supported interface and data for local emergency dispatch systems"
+            ],
+            "summary": "Software Development using C# .Net.  Projects have ranged from middleware development using XML schemas to asp.net deeply interactive web applications.  The current project is using Silverlight 4 (eventually 5) with the Prism framework and the MVVM pattern to develop a large scale client application.\nMost of my work is involved on the User Interface logistics, not the graphic design work.  I also maintain some service side logic and help maintain the databases (SQL Server).  When it is time, I also do the application roll-out/installs into the customer environment and provide training and high level support.",
+            "url": "https://www.linkedin.com/company/kti/",
+            "location": "CT, USA"
+        },
+        {
+            "name": "Lumetix",
+            "position": "Founder & Engineer",
+            "startDate": "2008-09-01",
+            "endDate": "2010-06-01",
+            "highlights": [
+                "Developed database and interface for distributed shipping and receiving locations",
+                "Updated network infrastructure to support new applications and remote locations",
+                "Developed central server with backup to shared access and office content"
+            ],
+            "summary": "Established a software and hardware company with a partner to help build shipping and receiving solutions for small aerospace based companies.",
+            "url": "",
+            "location": "East Windsor, CT"
+        }
+    ],
+    "volunteer": [],
+    "education": [
+        {
+            "institution": "SetFocus",
+            "area": ".Net",
+            "studyType": ".Net Certificate",
+            "startDate": "2008-12-31",
+            "endDate": "2009-12-31",
+            "score": "B",
+            "courses": []
+        }
+    ],
+    "awards": [],
+    "certificates": [
+        {
+            "name": "MCPS: Microsoft Certified Professional",
+            "issuer": "Microsoft",
+            "startDate": "2014-06-30",
+            "url": "http://www.microsoft.com/learning/en-us/certification-overview.aspx"
+        },
+        {
+            "name": "MS: Programming in HTML5 with JavaScript and CSS3",
+            "issuer": "Microsoft",
+            "startDate": "2014-06-30",
+            "url": "http://www.microsoft.com/learning/en-us/certification-overview.aspx"
+        },
+        {
+            "name": "MS: Essentials of Developing Windows Store Apps using HTML5 and JavaScript",
+            "issuer": "Microsoft",
+            "startDate": "2015-08-31",
+            "url": "http://www.microsoft.com/learning/en-us/certification-overview.aspx"
+        }
+    ],
+    "publications": [],
+    "skills": [
+        {
+            "name": "Vue.js",
+            "level": "Intermediate",
+            "keywords": []
+        },
+        {
+            "name": "Amazon Web Services (AWS)",
+            "level": "",
+            "keywords": ["Lambda", "API Gateway", "S3", "Bedrock"]
+        },
+        {
+            "name": ".NET Core",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": ".NET",
+            "level": "",
+            "keywords": ["C#", "ASP.NET", "WCF", "WebAPI"]
+        },
+        {
+            "name": "React",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Agile Methodologies",
+            "level": "",
+            "keywords": ["SAFe", "Scrum", "Kanban","XP"]
+        },
+        {
+            "name": "Visual Studio",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "C#",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Model-view-viewmodel (MVVM)",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Node.js",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Microsoft SQL Server",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "ASP.NET MVC",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Software Development Life Cycle (SDLC)",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Chrome Extensions",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Silverlight",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Software Development",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Software Design",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "REST APIs",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "HTML",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Databases",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "XAML",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "XML",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "JavaScript",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "SQL",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "MongoDB",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Web Applications",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "GenAI",
+            "level": "",
+            "keywords": ["OpenAI", "Anthropic Claude"]
+        },
+        {
+            "name": "JavaScript",
+            "level": "",
+            "keywords": []
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native Speaker"
+        }
+    ],
+    "interests": [],
+    "references": [
+        {
+            "name": "Swapna Varghese",
+            "reference": "Jason is very creative and intelligent  and a very good team member to work with. He has good technical capabilities and a techie with good logical and analytical skills in Software design and development."
+        }
+    ],
+    "projects": [],
+    "meta": {
+        "version": "v1.0.0",
+        "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+    }
+}
