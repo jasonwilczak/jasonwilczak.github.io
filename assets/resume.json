@@ -114,7 +114,10 @@
             "position": "Software Engineer",
             "startDate": "2018-01-31",
             "endDate": "2023-04-30",
-            "highlights": [],
+            "highlights": [
+                "Developed custom headless CMS solution for non-profit content management",
+                "Responsible for full experience workflows and scheduling integrations"
+            ],
             "summary": "Freelance contract work for ReadyEDI.  Responsible for web based solutions leveraging C# MVC and WCF as well as VueJS for the front end.  Primary responsibility includes building/maintaining a custom CMS platform built, custom form and input screens, components, workflows and designing the look and feel of the website using Vuetify.",
             "url": "",
             "location": "Massachusetts, United States"
@@ -160,7 +163,20 @@
             "location": "East Windsor, CT"
         }
     ],
-    "volunteer": [],
+    "volunteer": [
+        {
+            "organization": "ABM Alliance",
+            "position": "Engineering Consultant",
+            "startDate": "2024-08-01",
+            "endDate": "",
+            "highlights": [
+                "Advised on AI adoption strategies for large enterprise in relation to security and SDLC",
+                "Provided feedback and guidance on security practices within CICD"
+            ],
+            "summary": "Volunteer software developer for the Hartford Brigade of Code for America.  Worked on various open source projects to help local government improve services to citizens.",
+            "url": "https://abmalliance.com/"
+        }
+    ],
     "education": [
         {
             "institution": "SetFocus",
@@ -349,7 +365,124 @@
             "reference": "Jason is very creative and intelligent  and a very good team member to work with. He has good technical capabilities and a techie with good logical and analytical skills in Software design and development."
         }
     ],
-    "projects": [],
+    "projects": [
+        {
+            "name": "Personal Website",
+            "description": "My personal website to showcases my resume and portfolio of projects.",
+            "highlights": [
+                "Started as a Jekyll based static site hosted on GitHub Pages",
+                "Migrated to a completed Claude based generation built on jsonresume schema"
+            ],
+            "keywords": ["Claude", "GitHub Pages", "HTML", "CSS", "JavaScript"],
+            "startDate": "2015-01-01",
+            "endDate": "",
+            "url": "https://jason.wilczak.me",
+            "roles": ["Developer", "Designer"],
+            "entity": "Self-initiated",
+            "type": "website"
+        },        
+        {
+            "name": "Enterprise API Platform",
+            "description": "Enterprise API Platform to support API development, governance and security across the organization.",
+            "highlights": [
+                "Wrote enterprise API policy to drive consistency and quality across all API development",
+                "Implemented API security standards and guardrails in partnership with security and architecture teams",
+                "Built an enterprise API council to govern and drive standards across all business units",
+                "Designed automation processes to enforce API design, security and developer experience standards against our policy",
+                "Launched https://developer.travelers.com to support internal and external developers",
+                "Developed API Product strategy for the enterprise to drive business alignment and value",
+                "Executed large scale (400+ APIs) migration from legacy on-prem API platform to cloud based solutions leveraging AWS native"
+            ],
+            "keywords": ["OWASP", "API Design", "API Security", "Governance", "AWS API Gateway", "OWASP"],
+            "startDate": "2021-09-30",
+            "endDate": "",
+            "url": "https://developer.travelers.com",
+            "roles": ["Leader", "Design", "Engineer"],
+            "entity": "Travelers",
+            "type": "platform"
+        },        
+        {
+            "name": "Engineering Assistant",
+            "description": "Enterprise conversational AI assistant to provide accurate engineering practices and guidance to engineers across the enterprise.",
+            "highlights": [
+                "Knowledge segments owned and curated by engineering SMEs to ensure accuracy and relevance",
+                "Integration with existing touchpoints to maintain Engineer flow",
+                "Built as a foundation for future AI driven engineering tools and solutions"
+            ],
+            "keywords": ["Bedrock", "Generative AI", "Conversational AI", "Knowledge Management","LLM","Experience"],
+            "startDate": "2025-09-01",
+            "endDate": "",
+            "url": "",
+            "roles": ["Leader", "Designer", "Engineer"],
+            "entity": "Travelers",
+            "type": "tool"
+        },        
+        {
+            "name": "Customer Identity Management Platform",
+            "description": "Architected, reviewed and implemented a customer identity management platform to support secure access to customer facing applications. Leveraged Okta as the identity provider and integrated with multiple applications across the enterprise.",
+            "highlights": [
+                "Establish robust RFP to select provider",
+                "Installed and configured the provider to support enterprise needs and support IaC for configuration",
+                "Architected and implemented new login and registration flows using modern OAuth for external customers"
+            ],
+            "keywords": ["Okta", "OAuth", "Identity Management", "Customer Experience"],
+            "startDate": "2017-04-30",
+            "endDate": "2021-11-30",
+            "url": "https://signin.travelers.com/",
+            "roles": ["Architect", "Engineer"],
+            "entity": "Travelers",
+            "type": "platform"
+        },        
+        {
+            "name": "Engineering Community of Practice",
+            "description": "Established and led the first Engineering Community of Practice for Travelers Technology to foster collaboration, share best practices, and drive continuous learning among software engineers across the org. Eventually this lead to the establishment of a full chapter across the Enterprise.",
+            "highlights": [
+                "Pitched and received approval to focus on the Engineering culture activities around development of engineers, quality of life, onboarding, etc.",
+                "Established development days to enable hands on learning and knowledge sharing from the governing bodies",
+                "Worked to expand to a hub and spoke model to scale best practices and foster collaboration to the enterprise"
+            ],
+            "keywords": ["Experience", "Community", "Collaboration", "Learning"],
+            "startDate": "2017-04-30",
+            "endDate": "",
+            "url": "",
+            "roles": ["Founder", "Org Lead", "Enterprise Lead"],
+            "entity": "Travelers",
+            "type": "community"
+        },        
+        {
+            "name": "ForAgents",
+            "description": "Redesign of the external agent portal for Travelers Insurance to improve user experience, reusability and content management for business users.",
+            "highlights": [
+                "Architected a data driven component model to improve reusability and decrease time to market for new features",
+                "Designed and implemented a common CMS component platform to enable dynamic content management for business users",
+                "Constructed a simplified deployment process for an internal view for training and validation of content changes",
+                "Designed and implemented a comprehensive account experience across all Agent data points"
+            ],
+            "keywords": ["Insurance", "CMS", "C#", "JavaScript", "HTML", "CSS", "Experience"],
+            "startDate": "2017-04-30",
+            "endDate": "2018-01-31",
+            "url": "https://foragents.travelers.com",
+            "roles": ["Architect", "Engineer", "Product Owner", "Scrum Master"],
+            "entity": "Travelers",
+            "type": "website"
+        },        
+        {
+            "name": "Treasuristry",
+            "description": "A simple web and mobile based app to track all of your collectibles across different mediums.  Fast searching, photo based inventory, cross device syncing and basic social features all to support expanding your collections and managing them smartly.",
+            "highlights": [
+                "Used AWS services including Lambda, API Gateway, S3, DynamoDB and Cognito to build a scalable backend",
+                "Designed and implemented completely with Anthropic toolset",
+                "Allows for multiple collections, photo based inventory, searching and social features to share with friends"
+            ],
+            "keywords": ["Claude", "AWS", "Collections", "Product"],
+            "startDate": "2025-08-30",
+            "endDate": "2018-01-31",
+            "url": "https://treasuristry.com",
+            "roles": ["Architect", "Engineer", "Product Owner", "Designer"],
+            "entity": "Self-initiated",
+            "type": "website"
+        }
+    ],
     "meta": {
         "version": "v1.0.0",
         "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"

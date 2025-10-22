@@ -420,6 +420,14 @@
             font-size: 0.95em;
         }
 
+        .job-description {
+            font-style: italic;
+            color: var(--text-secondary);
+            margin-top: 8px;
+            margin-bottom: 12px;
+            font-size: 0.95em;
+        }
+
         .job ul {
             list-style: none;
             padding-left: 0;
@@ -455,6 +463,16 @@
 
         .fun-theme .job li strong {
             text-shadow: var(--glow-green);
+        }
+
+        .job li a {
+            color: var(--accent-primary);
+            text-decoration: none;
+            border-bottom: 1px solid var(--accent-primary);
+        }
+
+        .job li a:hover {
+            color: var(--accent-secondary);
         }
 
         .skills-container {
@@ -575,6 +593,12 @@
             content: "✓ ";
         }
 
+        .loading {
+            text-align: center;
+            color: var(--text-muted);
+            padding: 20px;
+        }
+
         /* Projects Grid */
         .projects-grid {
             display: grid;
@@ -643,6 +667,12 @@
             box-shadow: 0 0 5px rgba(138, 43, 226, 0.5);
         }
 
+        .loading {
+            text-align: center;
+            color: var(--text-muted);
+            padding: 20px;
+        }
+
         @media (max-width: 768px) {
             nav .nav-container {
                 padding: 0 20px;
@@ -670,6 +700,10 @@
             }
 
             .projects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .github-dashboard {
                 grid-template-columns: 1fr;
             }
 
@@ -736,7 +770,7 @@
                 <h1 class="page-title">Resume</h1>
 
                 <div class="summary">
-                    Engineering leader with <span class="highlight">15+ years</span> building platforms that enable developers at scale. Led teams of <span class="highlight">5-300+ engineers</span> delivering API platforms processing <span class="highlight">millions of daily requests</span>, developer experience initiatives reducing integration time by <span class="highlight">75%</span>, and enterprise-wide GenAI adoption serving <span class="highlight">1,000+ engineers</span>. Proven track record scaling developer tools while maintaining security-by-default practices in regulated environments.
+                    Engineering leader with <span class="highlight">15+ years</span> building platforms that enable developers at scale. Led teams of <span class="highlight">5-300+ engineers</span> delivering API platforms processing <span class="highlight">millions of daily requests</span>, developer experience initiatives reducing integration times, and enterprise-wide GenAI adoption serving <span class="highlight">1,000+ engineers</span>. Proven track record scaling developer tools while maintaining security-by-default practices in regulated environments.
                 </div>
 
                 <h2 class="section-subtitle">Professional Experience</h2>
@@ -745,7 +779,7 @@
                     <div class="company">TRAVELERS | Hartford, CT</div>
                     <div class="job-title">Enterprise Engineering Chapter Lead - Assistant Vice President of Software Engineering</div>
                     <div class="job-date">October 2025 - Present</div>
-                    <div class="job-description">Technology transformation leader driving operational excellence and strategic initiatives across software engineering teams. Focuses on strategic roadmaps, OKR accountability, DevSecOps adoption, and AI-driven SDLC modernization.</div>
+                    <div class="job-description">Technology transformation leader driving operational excellence and strategic initiatives across software engineering teams. Focuses on strategic roadmaps, OKR accountability, DevSecOps adoption, and AI-driven SDLC modernization. Collaborates with enterprise partners and chapter leads to foster innovation and continuous learning.</div>
                     <ul>
                         <li><strong>Lead and collaborated on the Future of Engineering initiative</strong> for Travelers Technology</li>
                     </ul>
@@ -754,7 +788,7 @@
                 <div class="job">
                     <div class="job-title">Enterprise API & Event Platform Lead - Assistant Vice President of Software Engineering</div>
                     <div class="job-date">April 2023 - Present</div>
-                    <div class="job-description">AVP of Software Engineering running the API & Event Platform circle for the enterprise. Mission to build a platform for engineers to drive API products, re-usability, consistency and quality with a domain focused lens.</div>
+                    <div class="job-description">As an AVP of Software Engineering, I run the API & Event Platform circle for the enterprise. Our mission is to build a platform for engineers to drive API products, re-usability, consistency and quality with a domain focused lens.</div>
                     <ul>
                         <li><strong>Enterprise API & Event Platform</strong> for Governance, Security and Reusability including <a href="https://developer.travelers.com" target="_blank">developer.travelers.com</a></li>
                         <li><strong>Championed and lead scale</strong> of enterprise Kafka based event platform across 500+ applications</li>
@@ -764,9 +798,9 @@
                 </div>
 
                 <div class="job">
-                    <div class="job-title">Org Engineering Chapter Lead, Enterprise Best Practices & Experiences Lead</div>
+                    <div class="job-title">Org Engineering Chapter Lead, Enterprise Best Practices & Experiences Lead - Lead Engineer → Assistant Vice President of Software Engineering</div>
                     <div class="job-date">April 2017 - December 2025</div>
-                    <div class="job-description">Pitched and received approval to focus on Engineering culture activities around development of engineers, quality of life, onboarding, etc. Ran the first Engineer community of practice for our area and helped pave the foundation for the enterprise community of practice.</div>
+                    <div class="job-description">Pitched and received approval to focus on the Engineering culture activities around development of engineers, quality of life, onboarding, etc. Ran the first Engineer community of practice for our area and helped pave the foundation for the enterprise community of practice.</div>
                     <ul>
                         <li><strong>Established DevDays</strong> that focus on continuous learning and knowledge sharing across engineering teams</li>
                         <li><strong>Enabled a hub and spoke model</strong> for engineering communities of practice to scale best practices and foster collaboration to the enterprise</li>
@@ -779,9 +813,9 @@
                 <div class="job">
                     <div class="job-title">Enterprise API Platform - Senior Director of Software Engineering</div>
                     <div class="job-date">September 2021 - Present</div>
-                    <div class="job-description">Responsible for the API Strategy of Travelers. Teams are tasked with paving the direction of API development and technology for the future of the company. Goal is to find the right balance of API standards and governance for all engineers leveraging AWS and MuleSoft.</div>
+                    <div class="job-description">Responsible for the API Strategy of Travelers. These teams are tasked with paving the direction of API development and technology for the future of the company. Our goal is to find the right balance of API standards and governance for all engineers leveraging AWS and MuleSoft.</div>
                     <ul>
-                        <li><strong>Worked to build metrics and controls</strong> around API platform tools to control cost and usage</li>
+                        <li><strong>Worked to build metrics and controls</strong> around our API platform tools to control cost and usage</li>
                         <li><strong>Built an enterprise API council</strong> to help govern and drive standards across all business units</li>
                         <li><strong>Partnered with security and architecture</strong> to build guardrails and standards for API security and design</li>
                         <li><strong>Designed an automation process</strong> to drive consistency and quality across all API development including design, security and developer experience</li>
@@ -791,7 +825,7 @@
                 <div class="job">
                     <div class="job-title">Customer Access & Identity Management - Lead Software Engineer</div>
                     <div class="job-date">April 2017 - November 2021</div>
-                    <div class="job-description">Lead Software Engineer on the Customer Access and Identity portfolio. Also responsible for Engineering culture activities around development of engineers, quality of life, onboarding, etc. Ran the first Engineer community of practice for our area.</div>
+                    <div class="job-description">Lead Software Engineer on the Customer Access and Identity portfolio. Technologies used include: C#, JavaScript, React, HTML5/CSS3, ASP.NET MVC, .NET Core, WebAPI, WCF, SQL Server, NodeJS, Express, Mongo, AWS, PCF, UCD, Jenkins, SVN, Github, Visual Studio, Okta, MuleSoft, OpenShift, Rally, and Confluence. Also responsible for Engineering culture activities around development of engineers, quality of life, onboarding, etc.</div>
                     <ul>
                         <li><strong>Architected and delivered customer access platform</strong> processing 10M+ authentication requests daily across web and mobile channels using modern stack with 99.95% uptime and sub-200ms response times</li>
                         <li><strong>Built OAuth 2.0 and OpenID Connect implementation</strong> enabling secure single sign-on across 15+ internal applications and external partner integrations, reducing support tickets by 45%</li>
@@ -799,12 +833,24 @@
                 </div>
 
                 <div class="job">
+                    <div class="job-title">External Agent Platform - Senior Software Engineer</div>
+                    <div class="job-date">April 2017 - January 2018</div>
+                    <ul>
+                        <li><strong>Responsible for the redesign of the Agent Portal</strong> - <a href="https://foragents.travelers.com" target="_blank">foragents.travelers.com</a></li>
+                        <li><strong>Designed and implemented data driven UI components</strong> to improve reusability and decrease time to market for new features</li>
+                        <li><strong>Designed and implemented a common CMS component platform</strong> to enable dynamic content management for business users</li>
+                        <li><strong>Constructed a simplified deployment process</strong> for an internal view for training and validation of content changes using a single code base</li>
+                    </ul>
+                </div>
+
+                <div class="job">
                     <div class="company">READYEDI | Remote</div>
                     <div class="job-title">Software Engineer</div>
                     <div class="job-date">January 2018 - April 2023</div>
-                    <div class="job-description">Freelance contract work for ReadyEDI. Responsible for web based solutions leveraging C# MVC and WCF as well as VueJS for the front end. Primary responsibility includes building/maintaining a custom CMS platform built, custom form and input screens, components, workflows and designing the look and feel of the website using Vuetify.</div>
+                    <div class="job-description">Freelance contract work for ReadyEDI. Responsible for web based solutions leveraging C# MVC and WCF as well as VueJS for the front end. Primary responsibility includes building/maintaining a custom CMS platform, custom form and input screens, components, workflows and designing the look and feel of the website using Vuetify.</div>
                     <ul>
-                        <li><strong>Built custom CMS platform</strong> and web applications using C# MVC, WCF services, and Vue.js with Vuetify component library</li>
+                        <li><strong>Developed custom headless CMS solution</strong> for non-profit content management</li>
+                        <li><strong>Responsible for full experience workflows</strong> and scheduling integrations</li>
                     </ul>
                 </div>
 
@@ -823,7 +869,7 @@
                     <div class="company">KTI | Connecticut</div>
                     <div class="job-title">Software Developer</div>
                     <div class="job-date">August 2010 - March 2013</div>
-                    <div class="job-description">Software Development using C# .Net. Projects ranged from middleware development using XML schemas to ASP.NET deeply interactive web applications using Silverlight 4/5 with the Prism framework and the MVVM pattern.</div>
+                    <div class="job-description">Software Development using C# .Net. Projects have ranged from middleware development using XML schemas to ASP.NET deeply interactive web applications. The current project is using Silverlight 4 (eventually 5) with the Prism framework and the MVVM pattern to develop a large scale client application.</div>
                     <ul>
                         <li><strong>Developed logic to process citation data</strong> into federal XML schemas and PDF outputs</li>
                         <li><strong>Developed interactive web applications</strong> for remote officers to input citation data</li>
@@ -832,7 +878,7 @@
                 </div>
 
                 <div class="job">
-                    <div class="company">LUMETIX | Connecticut</div>
+                    <div class="company">LUMETIX | East Windsor, CT</div>
                     <div class="job-title">Founder & Engineer</div>
                     <div class="job-date">September 2008 - June 2010</div>
                     <div class="job-description">Established a software and hardware company with a partner to help build shipping and receiving solutions for small aerospace based companies.</div>
@@ -859,30 +905,32 @@
                         </ul>
                     </div>
                 </div>
+
+                <h2 class="section-subtitle">Technical Skills</h2>
                 <div class="skills-container">
                     <div class="skill-category">
                         <h3>Languages & Frameworks</h3>
-                        <p>JavaScript/TypeScript, C#, Python, Node.js, React, .NET Core</p>
+                        <p>JavaScript/TypeScript, C#, Python, Node.js, React, .NET Core, ASP.NET MVC, Vue.js</p>
                     </div>
                     <div class="skill-category">
                         <h3>Infrastructure</h3>
-                        <p>AWS, Kubernetes, Docker, Terraform, CI/CD, Microservices</p>
+                        <p>AWS (Lambda, API Gateway, S3), Kubernetes, Docker, Terraform, CI/CD, Microservices</p>
                     </div>
                     <div class="skill-category">
                         <h3>API & Integration</h3>
-                        <p>RESTful Design, OpenAPI, OAuth 2.0, GraphQL, MuleSoft</p>
+                        <p>RESTful Design, OpenAPI, OAuth 2.0, GraphQL, MuleSoft, Event-driven Architecture</p>
                     </div>
                     <div class="skill-category">
                         <h3>Data & Observability</h3>
-                        <p>SQL Server, MongoDB, Prometheus, Grafana, Splunk</p>
+                        <p>SQL Server, MongoDB, Prometheus, Grafana, Splunk, Distributed Tracing</p>
                     </div>
                     <div class="skill-category">
                         <h3>Developer Experience</h3>
-                        <p>Developer Portals, Documentation, CLI Development, Platform Engineering</p>
+                        <p>Developer Portals, Documentation Systems, CLI Development, Platform Engineering</p>
                     </div>
                     <div class="skill-category">
                         <h3>AI/ML</h3>
-                        <p>GenAI Integration, LLM Development, Prompt Engineering, RAG Systems</p>
+                        <p>GenAI Integration, LLM Development, Prompt Engineering (Claude, OpenAI, Anthropic)</p>
                     </div>
                 </div>
             </section>
@@ -891,70 +939,88 @@
             <section id="projects">
                 <h1 class="page-title">Projects</h1>
 
+                <h2 class="section-subtitle">Featured Projects</h2>
+
                 <div class="projects-grid">
                     <div class="project-card">
+                        <h3>Personal Website</h3>
+                        <p class="project-description">My personal website to showcases my resume and portfolio of projects.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Claude</span>
+                            <span class="project-tag">GitHub Pages</span>
+                            <span class="project-tag">HTML/CSS/JS</span>
+                            <span class="project-tag">jsonresume</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
                         <h3>Enterprise API Platform</h3>
-                        <p class="project-description">Built comprehensive developer portal and API governance system serving 300+ engineers at Travelers. Reduced API integration time from 2+ weeks to 3 days through self-service tooling, OpenAPI specifications, and automated compliance controls.</p>
+                        <p class="project-description">Enterprise API Platform to support API development, governance and security across the organization.</p>
                         <div class="project-tags">
+                            <span class="project-tag">OWASP</span>
                             <span class="project-tag">API Design</span>
-                            <span class="project-tag">OpenAPI</span>
-                            <span class="project-tag">Developer Portal</span>
-                            <span class="project-tag">AWS</span>
+                            <span class="project-tag">API Security</span>
+                            <span class="project-tag">Governance</span>
+                            <span class="project-tag">AWS API Gateway</span>
                         </div>
                     </div>
 
                     <div class="project-card">
-                        <h3>GenAI Integration Framework</h3>
-                        <p class="project-description">Evaluated and deployed enterprise AI tools (GitHub Copilot, Claude, ChatGPT Enterprise) with custom integrations. Achieved 25% improvement in developer productivity across engineering organization through intelligent tool selection and integration.</p>
+                        <h3>Engineering Assistant</h3>
+                        <p class="project-description">Enterprise conversational AI assistant to provide accurate engineering practices and guidance to engineers across the enterprise.</p>
                         <div class="project-tags">
-                            <span class="project-tag">AI/ML</span>
+                            <span class="project-tag">Bedrock</span>
+                            <span class="project-tag">Generative AI</span>
+                            <span class="project-tag">Conversational AI</span>
+                            <span class="project-tag">Knowledge Management</span>
                             <span class="project-tag">LLM</span>
-                            <span class="project-tag">Developer Tools</span>
-                            <span class="project-tag">Prompt Engineering</span>
+                            <span class="project-tag">Experience</span>
                         </div>
                     </div>
 
                     <div class="project-card">
-                        <h3>Customer Identity Platform</h3>
-                        <p class="project-description">Architected and delivered authentication platform processing 10M+ daily requests across web and mobile channels. Implemented OAuth 2.0 and OpenID Connect with 99.95% uptime, sub-200ms response times, and multi-language SDKs.</p>
+                        <h3>Customer Identity Management Platform</h3>
+                        <p class="project-description">Architected, reviewed and implemented a customer identity management platform to support secure access to customer facing applications. Leveraged Okta as the identity provider and integrated with multiple applications across the enterprise.</p>
                         <div class="project-tags">
-                            <span class="project-tag">OAuth 2.0</span>
-                            <span class="project-tag">Security</span>
-                            <span class="project-tag">High-Scale</span>
-                            <span class="project-tag">React/Node.js</span>
+                            <span class="project-tag">Okta</span>
+                            <span class="project-tag">OAuth</span>
+                            <span class="project-tag">Identity Management</span>
+                            <span class="project-tag">Customer Experience</span>
                         </div>
                     </div>
 
                     <div class="project-card">
-                        <h3>Technical Leadership Program</h3>
-                        <p class="project-description">Designed and led Technical Leadership Development Program (TLDP) curriculum for 20+ emerging technical leaders. Focused on architecture, communication, and technical strategy with 85% of participants advancing to senior/principal roles within 18 months.</p>
+                        <h3>Engineering Community of Practice</h3>
+                        <p class="project-description">Established and led the first Engineering Community of Practice for Travelers Technology to foster collaboration, share best practices, and drive continuous learning among software engineers across the org. Eventually this lead to the establishment of a full chapter across the Enterprise.</p>
                         <div class="project-tags">
-                            <span class="project-tag">Leadership</span>
-                            <span class="project-tag">Mentorship</span>
-                            <span class="project-tag">Education</span>
-                            <span class="project-tag">Career Development</span>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <h3>Engineering Culture Initiative</h3>
-                        <p class="project-description">Founded and scaled engineering chapter program creating community of practice. Established tech talks, code review standards, and innovation challenges driving 30% increase in open-source contributions and cross-team collaboration.</p>
-                        <div class="project-tags">
+                            <span class="project-tag">Experience</span>
                             <span class="project-tag">Community</span>
-                            <span class="project-tag">Culture</span>
                             <span class="project-tag">Collaboration</span>
-                            <span class="project-tag">Knowledge Sharing</span>
+                            <span class="project-tag">Learning</span>
                         </div>
                     </div>
 
                     <div class="project-card">
-                        <h3>CI/CD Pipeline Modernization</h3>
-                        <p class="project-description">Modernized deployment infrastructure and developer onboarding processes. Achieved 60% reduction in deployment time and cut time-to-first-commit from 2 weeks to 3 days through automated tooling and streamlined workflows.</p>
+                        <h3>ForAgents</h3>
+                        <p class="project-description">Redesign of the external agent portal for Travelers Insurance to improve user experience, reusability and content management for business users.</p>
                         <div class="project-tags">
-                            <span class="project-tag">DevOps</span>
-                            <span class="project-tag">CI/CD</span>
-                            <span class="project-tag">Developer Experience</span>
-                            <span class="project-tag">Kubernetes</span>
+                            <span class="project-tag">Insurance</span>
+                            <span class="project-tag">CMS</span>
+                            <span class="project-tag">C#</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">HTML/CSS</span>
+                            <span class="project-tag">Experience</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Treasuristry</h3>
+                        <p class="project-description">A simple web and mobile based app to track all of your collectibles across different mediums. Fast searching, photo based inventory, cross device syncing and basic social features all to support expanding your collections and managing them smartly.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Claude</span>
+                            <span class="project-tag">AWS</span>
+                            <span class="project-tag">Collections</span>
+                            <span class="project-tag">Product</span>
                         </div>
                     </div>
                 </div>
