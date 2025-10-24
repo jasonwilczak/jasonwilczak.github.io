@@ -2,7 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
     "basics": {
         "name": "Jason Wilczak",
-        "label": "AVP of Software Engineering at Travelers & Freelance Software Engineer",
+        "label": "AVP of Engineering at Travelers & Freelance Engineer",
         "image": "",
         "email": "jason.wilczak@gmail.com",
         "phone": "",
@@ -19,9 +19,9 @@
                 "url": "https://www.linkedin.com/in/jasonwilczak/"
             },
             {
-                "network": "Twitter",
+                "network": "Github",
                 "username": "JasonWilczak",
-                "url": "https://twitter.com/JasonWilczak"
+                "url": "https://github.com/JasonWilczak"
             }
         ]
     },
@@ -32,7 +32,9 @@
             "startDate": "2025-10-10",
             "endDate": "",
             "highlights": [
-                "Lead and collaborated on the Future of Engineering initiative for Travelers Technology"
+                "Lead and collaborated on the Future of Engineering initiative for Travelers Technology",
+                "Defined strategic roadmaps and OKRs for engineering excellence and operational efficiency",
+                "Driving DevSecOps automation and AI-driven SDLC modernization across software engineering teams",
             ],
             "summary": "Technology transformation leader driving operational excellence and strategic initiatives across software engineering teams. Focuses on strategic roadmaps, OKR accountability, DevSecOps adoption, and AI-driven SDLC modernization. Collaborates with enterprise partners and chapter leads to foster innovation and continuous learning.",
             "url": "https://www.linkedin.com/company/travelers/",
@@ -55,7 +57,7 @@
         },
         {
             "name": "Travelers",
-            "position": "Org Engineering Chapter Lead, Enterprise Best Practices & Experiences Lead - Lead Engineer -> Assistant Vice President of Software Engineering",
+            "position": "Org Engineering Chapter Lead, Enterprise Best Practices & Experiences - Lead/Assistant Vice President of Software Engineering",
             "startDate": "2017-04-30",
             "endDate": "2025-12-01",
             "highlights": [
@@ -89,8 +91,12 @@
             "position": "Customer Access & Identity Management - Lead Software Engineer",
             "startDate": "2017-04-30",
             "endDate": "2021-11-30",
-            "highlights": [],
-            "summary": "Lead Software Engineer on the Customer Access and Identity portfolio.  Technologies used include: C#, JavaScript, React, HTML5/CSS3, ASP.NET MVC, .NET Core, WebAPI, WCF, SQL Server, NodeJS, Express, Mongo, AWS, PCF, UCD, Jenkins, SVN, Github, Visual Studio (full and Code), Okta, MuleSoft, OpenShift, Rally, and Confluence\n\nAlso responsible for Engineering culture activities around development of engineers, quality of life, onboarding, etc.  Ran the first Engineer community of practice for our area and helped pave the foundation for the enterprise community of practice.",
+            "highlights": [
+                "Planned and executed a robust product evaluation against multiple vendors and technologies",
+                "Architected and implemented new login and registration flows using modern OAuth for external customers at https://signin.travelers.com/",
+                "Installed and configured the provider to support enterprise needs and support IaC for configuration"
+            ],
+            "summary": "Lead Software Engineer on the Customer Access and Identity portfolio.  Drove the design, review, selection and implementation of a customer identity management platform to support secure access to customer facing applications.  Leveraged Okta as the identity provider and integrated with multiple applications across the enterprise.",
             "url": "https://www.linkedin.com/company/travelers/",
             "location": "Hartford, Connecticut"
         },
@@ -105,7 +111,7 @@
                 "Designed and implemented a common CMS component platform to enable dynamic content management for business users",
                 "Constructed a simplified deployment process for an internal view for training and validation of content changes using a single code base"
             ],
-            "summary": "Senior Software Engineer in charge of the Agent portal for external facing agents.  Used C#, Javascript, HTML, CSS, Visual Studio, SQL Server, PCF, IIS, Rally, and Confluence.",
+            "summary": "Senior Software Engineer in charge of the Agent portal for external facing agents.  Redesigned and rearchitected from legacy technology to a modern .NET stack with a focus on reusability, content management and user experience.",
             "url": "https://www.linkedin.com/company/travelers/",
             "location": "Hartford, Connecticut, United States"
         },
@@ -124,7 +130,7 @@
         },
         {
             "name": "Avanade",
-            "position": "Sr Software Developer",
+            "position": "Senior Software Developer",
             "startDate": "2013-03-31",
             "endDate": "2017-03-31",
             "highlights": [
@@ -144,9 +150,9 @@
                 "Developed interactive web applications for remote officers to input citation data",
                 "Supported interface and data for local emergency dispatch systems"
             ],
-            "summary": "Software Development using C# .Net.  Projects have ranged from middleware development using XML schemas to asp.net deeply interactive web applications.  The current project is using Silverlight 4 (eventually 5) with the Prism framework and the MVVM pattern to develop a large scale client application.\nMost of my work is involved on the User Interface logistics, not the graphic design work.  I also maintain some service side logic and help maintain the databases (SQL Server).  When it is time, I also do the application roll-out/installs into the customer environment and provide training and high level support.",
+            "summary": "Software Development using C# .Net.  Projects have ranged from middleware development using XML schemas to asp.net deeply interactive web applications.  Most of my work is involved on the User Interface logistics and some graphic design work.  I also maintain some service side logic and help maintain the databases (SQL Server).  When it is time, I also do the application roll-out/installs into the customer environment and provide training and high level support.",
             "url": "https://www.linkedin.com/company/kti/",
-            "location": "CT, USA"
+            "location": "East Hartford, CT"
         },
         {
             "name": "Lumetix",
