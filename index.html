@@ -706,7 +706,7 @@
             <section id="home" class="active">
                 <div class="hero">
                     <h1 id="hero-name">JASON WILCZAK</h1>
-                    <div class="subtitle" id="hero-tagline">Engineering Experience Leader | API Platforms & AI Integrations</div>
+                    <div class="subtitle" id="hero-tagline">Engineering Leader | API Platforms & Developer Experience | AI/ML Integration</div>
                 </div>
 
                 <div class="about-section">
@@ -819,7 +819,7 @@
                         ${job.summary ? `<div class="job-description">${job.summary}</div>` : ''}
                         ${job.highlights && job.highlights.length ? `
                             <ul>
-                                ${job.highlights.map(h => `<li><strong>${h}</strong></li>`).join('')}
+                                ${job.highlights.map(h => `<li><strong>${parseMarkdownLinks(h)}</strong></li>`).join('')}
                             </ul>
                         ` : ''}
                     </div>
@@ -878,10 +878,10 @@
             }
         }
 
-        function formatDate(dateString) {
-            if (!dateString) return '';
-            const date = new Date(dateString);
-            return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+        function parseMarkdownLinks(text) {
+            if (!text) return text;
+            // Replace [text](url) with <a href="url">text</a>
+            return text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
         }
 
         document.addEventListener('DOMContentLoaded', function() {

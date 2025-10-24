@@ -46,7 +46,7 @@
             "startDate": "2023-04-30",
             "endDate": "",
             "highlights": [
-                "Enterprise API & Event Platform for Governance, Security and Reusability including https://developer.travelers.com",
+                "Enterprise API & Event Platform for Governance, Security and Reusability including [developer.travelers.com](https://developer.travelers.com)",
                 "Championed and lead scale of our enterprise Kafka based event platform across 500+ applications",
                 "Responsible for multiple tool adoptions across the API landscape to support security, design and experience",
                 "Partnered to develop a framework for product based mindsets around APIs including lifecycle management, developer experience and business alignment"
@@ -93,7 +93,7 @@
             "endDate": "2021-11-30",
             "highlights": [
                 "Planned and executed a robust product evaluation against multiple vendors and technologies",
-                "Architected and implemented new login and registration flows using modern OAuth for external customers at https://signin.travelers.com/",
+                "Architected and implemented new login and registration flows using modern OAuth for external customers at [signin.travelers.com](https://signin.travelers.com/)",
                 "Installed and configured the provider to support enterprise needs and support IaC for configuration"
             ],
             "summary": "Lead Software Engineer on the Customer Access and Identity portfolio.  Drove the design, review, selection and implementation of a customer identity management platform to support secure access to customer facing applications.  Leveraged Okta as the identity provider and integrated with multiple applications across the enterprise.",
@@ -106,7 +106,7 @@
             "startDate": "2017-04-30",
             "endDate": "2018-01-31",
             "highlights": [
-                "Responsible for the redisign of the Agent Portal - https://foragents.travelers.com",
+                "Responsible for the redesign of the Agent Portal - [foragents.travelers.com](https://foragents.travelers.com)",
                 "Designed and implemented data driven UI components to improve reusability and decrease time to market for new features",
                 "Designed and implemented a common CMS component platform to enable dynamic content management for business users",
                 "Constructed a simplified deployment process for an internal view for training and validation of content changes using a single code base"
@@ -218,29 +218,19 @@
     "publications": [],
     "skills": [
         {
-            "name": "Vue.js",
-            "level": "Intermediate",
-            "keywords": []
-        },
-        {
             "name": "Amazon Web Services (AWS)",
             "level": "",
             "keywords": ["Lambda", "API Gateway", "S3", "Bedrock"]
         },
         {
-            "name": ".NET Core",
-            "level": "",
-            "keywords": []
-        },
-        {
             "name": ".NET",
             "level": "",
-            "keywords": ["C#", "ASP.NET", "WCF", "WebAPI"]
+            "keywords": ["C#", "ASP.NET", "WCF", "WebAPI","Core"]
         },
         {
-            "name": "React",
+            "name": "Client Frameworks",
             "level": "",
-            "keywords": []
+            "keywords": ["React","Vue","Angular"]
         },
         {
             "name": "Agile Methodologies",
@@ -248,114 +238,64 @@
             "keywords": ["SAFe", "Scrum", "Kanban","XP"]
         },
         {
-            "name": "Visual Studio",
+            "name": "IDEs",
             "level": "",
-            "keywords": []
+            "keywords": ["Visual Studio", "VS Code", "Unity"]
         },
         {
-            "name": "C#",
+            "name": "Patterns",
             "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Model-view-viewmodel (MVVM)",
-            "level": "",
-            "keywords": []
+            "keywords": ["MVVM", "MVC", "Dependency Injection", "Microservices"]
         },
         {
             "name": "Node.js",
             "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Microsoft SQL Server",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "ASP.NET MVC",
-            "level": "",
-            "keywords": []
+            "keywords": ["Express"]
         },
         {
             "name": "Software Development Life Cycle (SDLC)",
             "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Chrome Extensions",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Silverlight",
-            "level": "",
-            "keywords": []
+            "keywords": ["Discovery", "Design", "Development", "Deployment"]
         },
         {
             "name": "Software Development",
             "level": "",
-            "keywords": []
+            "keywords": ["Testing", "CICD", "DevSecOps","IaC" ]
         },
         {
             "name": "Software Design",
             "level": "",
-            "keywords": []
+            "keywords": ["Architecture", "Mermaid", "Sequence Diagrams", "Component Diagrams"]
         },
         {
-            "name": "REST APIs",
+            "name": "APIs",
             "level": "",
-            "keywords": []
+            "keywords": ["REST","GraphQL","SOAP","MCP"]
         },
         {
-            "name": "HTML",
+            "name": "Markup/Config",
             "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Databases",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "XAML",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "XML",
-            "level": "",
-            "keywords": []
+            "keywords": ["XML", "JSON", "YAML","XAML"]
         },
         {
             "name": "JavaScript",
             "level": "",
-            "keywords": []
+            "keywords": ["Typescript", "ES6+"]
         },
         {
-            "name": "SQL",
+            "name": "Database",
             "level": "",
-            "keywords": []
-        },
-        {
-            "name": "MongoDB",
-            "level": "",
-            "keywords": []
+            "keywords": ["SQL Server","Mongo","Dynamo"]
         },
         {
             "name": "Web Applications",
             "level": "",
-            "keywords": []
+            "keywords": ["HTML", "CSS", "JavaScript", "ASP.NET","Silverlight","Chrome Extensions"]
         },
         {
             "name": "GenAI",
             "level": "",
             "keywords": ["OpenAI", "Anthropic Claude"]
-        },
-        {
-            "name": "JavaScript",
-            "level": "",
-            "keywords": []
         }
     ],
     "languages": [
