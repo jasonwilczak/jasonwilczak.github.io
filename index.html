@@ -513,22 +513,6 @@
             line-height: 1.6;
         }
 
-        .highlight {
-            padding: 2px 6px;
-            border-radius: 2px;
-            color: var(--text-primary);
-        }
-
-        .fun-theme .highlight {
-            background: rgba(138, 43, 226, 0.3);
-            text-shadow: var(--glow-green);
-        }
-
-        .clean-theme .highlight {
-            background: #e6f2ff;
-            font-weight: 600;
-        }
-
         .education-cert {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -591,12 +575,6 @@
 
         .clean-theme .cert-list li:before {
             content: "✓ ";
-        }
-
-        .loading {
-            text-align: center;
-            color: var(--text-muted);
-            padding: 20px;
         }
 
         /* Projects Grid */
@@ -703,10 +681,6 @@
                 grid-template-columns: 1fr;
             }
 
-            .github-dashboard {
-                grid-template-columns: 1fr;
-            }
-
             .education-cert {
                 grid-template-columns: 1fr;
             }
@@ -731,8 +705,8 @@
             <!-- HOME SECTION -->
             <section id="home" class="active">
                 <div class="hero">
-                    <h1>JASON WILCZAK</h1>
-                    <div class="subtitle">Engineering Leader | API Platforms & Developer Experience | AI/ML Integration</div>
+                    <h1 id="hero-name">JASON WILCZAK</h1>
+                    <div class="subtitle" id="hero-tagline">Engineering Experience Leader | API Platforms & AI Integrations</div>
                 </div>
 
                 <div class="about-section">
@@ -756,10 +730,10 @@
                     <div class="contact-section">
                         <h3>Get in Touch</h3>
                         <div class="contact-links">
-                            <span>📍 Broad Brook, CT</span>
-                            <a href="mailto:jason.wilczak@gmail.com">✉️ Email</a>
-                            <a href="https://linkedin.com/in/jasonwilczak" target="_blank">🔗 LinkedIn</a>
-                            <a href="https://github.com/jasonwilczak" target="_blank">💻 GitHub</a>
+                            <span id="location">📍 Broad Brook, CT</span>
+                            <a id="email-link" href="">✉️ Email</a>
+                            <a id="linkedin-link" href="" target="_blank">🔗 LinkedIn</a>
+                            <a id="github-link" href="" target="_blank">💻 GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -769,285 +743,164 @@
             <section id="resume">
                 <h1 class="page-title">Resume</h1>
 
-                <div class="summary">
-                    Engineering leader with <span class="highlight">15+ years</span> building platforms that enable developers at scale. Led teams of <span class="highlight">5-300+ engineers</span> delivering API platforms processing <span class="highlight">millions of daily requests</span>, developer experience initiatives reducing integration times, and enterprise-wide GenAI adoption serving <span class="highlight">1,000+ engineers</span>. Proven track record scaling developer tools while maintaining security-by-default practices in regulated environments.
+                <div class="summary" id="resume-summary">
                 </div>
 
                 <h2 class="section-subtitle">Professional Experience</h2>
-
-                <div class="job">
-                    <div class="company">TRAVELERS | Hartford, CT</div>
-                    <div class="job-title">Enterprise Engineering Chapter Lead - Assistant Vice President of Software Engineering</div>
-                    <div class="job-date">October 2025 - Present</div>
-                    <div class="job-description">Technology transformation leader driving operational excellence and strategic initiatives across software engineering teams. Focuses on strategic roadmaps, OKR accountability, DevSecOps adoption, and AI-driven SDLC modernization. Collaborates with enterprise partners and chapter leads to foster innovation and continuous learning.</div>
-                    <ul>
-                        <li><strong>Lead and collaborated on the Future of Engineering initiative</strong> for Travelers Technology</li>
-                    </ul>
-                </div>
-
-                <div class="job">
-                    <div class="job-title">Enterprise API & Event Platform Lead - Assistant Vice President of Software Engineering</div>
-                    <div class="job-date">April 2023 - Present</div>
-                    <div class="job-description">As an AVP of Software Engineering, I run the API & Event Platform circle for the enterprise. Our mission is to build a platform for engineers to drive API products, re-usability, consistency and quality with a domain focused lens.</div>
-                    <ul>
-                        <li><strong>Enterprise API & Event Platform</strong> for Governance, Security and Reusability including <a href="https://developer.travelers.com" target="_blank">developer.travelers.com</a></li>
-                        <li><strong>Championed and lead scale</strong> of enterprise Kafka based event platform across 500+ applications</li>
-                        <li><strong>Responsible for multiple tool adoptions</strong> across the API landscape to support security, design and experience</li>
-                        <li><strong>Partnered to develop a framework</strong> for product based mindsets around APIs including lifecycle management, developer experience and business alignment</li>
-                    </ul>
-                </div>
-
-                <div class="job">
-                    <div class="job-title">Org Engineering Chapter Lead, Enterprise Best Practices & Experiences Lead - Lead Engineer → Assistant Vice President of Software Engineering</div>
-                    <div class="job-date">April 2017 - December 2025</div>
-                    <div class="job-description">Pitched and received approval to focus on the Engineering culture activities around development of engineers, quality of life, onboarding, etc. Ran the first Engineer community of practice for our area and helped pave the foundation for the enterprise community of practice.</div>
-                    <ul>
-                        <li><strong>Established DevDays</strong> that focus on continuous learning and knowledge sharing across engineering teams</li>
-                        <li><strong>Enabled a hub and spoke model</strong> for engineering communities of practice to scale best practices and foster collaboration to the enterprise</li>
-                        <li><strong>Supported the Engineer Development Program</strong> and helped it update and modernize through 2 major iterations</li>
-                        <li><strong>Supported cross enterprise initiatives</strong> around engineering experience to improve pain points and SDLC efficiency</li>
-                        <li><strong>Executed build of approved Engineering Assistant</strong> to provide accurate practices and guidance to engineers across the enterprise via GenAI</li>
-                    </ul>
-                </div>
-
-                <div class="job">
-                    <div class="job-title">Enterprise API Platform - Senior Director of Software Engineering</div>
-                    <div class="job-date">September 2021 - Present</div>
-                    <div class="job-description">Responsible for the API Strategy of Travelers. These teams are tasked with paving the direction of API development and technology for the future of the company. Our goal is to find the right balance of API standards and governance for all engineers leveraging AWS and MuleSoft.</div>
-                    <ul>
-                        <li><strong>Worked to build metrics and controls</strong> around our API platform tools to control cost and usage</li>
-                        <li><strong>Built an enterprise API council</strong> to help govern and drive standards across all business units</li>
-                        <li><strong>Partnered with security and architecture</strong> to build guardrails and standards for API security and design</li>
-                        <li><strong>Designed an automation process</strong> to drive consistency and quality across all API development including design, security and developer experience</li>
-                    </ul>
-                </div>
-
-                <div class="job">
-                    <div class="job-title">Customer Access & Identity Management - Lead Software Engineer</div>
-                    <div class="job-date">April 2017 - November 2021</div>
-                    <div class="job-description">Lead Software Engineer on the Customer Access and Identity portfolio. Technologies used include: C#, JavaScript, React, HTML5/CSS3, ASP.NET MVC, .NET Core, WebAPI, WCF, SQL Server, NodeJS, Express, Mongo, AWS, PCF, UCD, Jenkins, SVN, Github, Visual Studio, Okta, MuleSoft, OpenShift, Rally, and Confluence. Also responsible for Engineering culture activities around development of engineers, quality of life, onboarding, etc.</div>
-                    <ul>
-                        <li><strong>Architected and delivered customer access platform</strong> processing 10M+ authentication requests daily across web and mobile channels using modern stack with 99.95% uptime and sub-200ms response times</li>
-                        <li><strong>Built OAuth 2.0 and OpenID Connect implementation</strong> enabling secure single sign-on across 15+ internal applications and external partner integrations, reducing support tickets by 45%</li>
-                    </ul>
-                </div>
-
-                <div class="job">
-                    <div class="job-title">External Agent Platform - Senior Software Engineer</div>
-                    <div class="job-date">April 2017 - January 2018</div>
-                    <ul>
-                        <li><strong>Responsible for the redesign of the Agent Portal</strong> - <a href="https://foragents.travelers.com" target="_blank">foragents.travelers.com</a></li>
-                        <li><strong>Designed and implemented data driven UI components</strong> to improve reusability and decrease time to market for new features</li>
-                        <li><strong>Designed and implemented a common CMS component platform</strong> to enable dynamic content management for business users</li>
-                        <li><strong>Constructed a simplified deployment process</strong> for an internal view for training and validation of content changes using a single code base</li>
-                    </ul>
-                </div>
-
-                <div class="job">
-                    <div class="company">READYEDI | Remote</div>
-                    <div class="job-title">Software Engineer</div>
-                    <div class="job-date">January 2018 - April 2023</div>
-                    <div class="job-description">Freelance contract work for ReadyEDI. Responsible for web based solutions leveraging C# MVC and WCF as well as VueJS for the front end. Primary responsibility includes building/maintaining a custom CMS platform, custom form and input screens, components, workflows and designing the look and feel of the website using Vuetify.</div>
-                    <ul>
-                        <li><strong>Developed custom headless CMS solution</strong> for non-profit content management</li>
-                        <li><strong>Responsible for full experience workflows</strong> and scheduling integrations</li>
-                    </ul>
-                </div>
-
-                <div class="job">
-                    <div class="company">AVANADE | Hartford, CT</div>
-                    <div class="job-title">Senior Software Developer</div>
-                    <div class="job-date">March 2013 - March 2017</div>
-                    <div class="job-description">Software developer responsible for .NET technologies for various clients and projects. Strong focus in JavaScript and ASP.NET (MVC) skill sets.</div>
-                    <ul>
-                        <li><strong>Developed prospecting tools</strong> for teams to find and track potential clients</li>
-                        <li><strong>Developed internal tools</strong> to help manage resources and projects across the company</li>
-                    </ul>
-                </div>
-
-                <div class="job">
-                    <div class="company">KTI | Connecticut</div>
-                    <div class="job-title">Software Developer</div>
-                    <div class="job-date">August 2010 - March 2013</div>
-                    <div class="job-description">Software Development using C# .Net. Projects have ranged from middleware development using XML schemas to ASP.NET deeply interactive web applications. The current project is using Silverlight 4 (eventually 5) with the Prism framework and the MVVM pattern to develop a large scale client application.</div>
-                    <ul>
-                        <li><strong>Developed logic to process citation data</strong> into federal XML schemas and PDF outputs</li>
-                        <li><strong>Developed interactive web applications</strong> for remote officers to input citation data</li>
-                        <li><strong>Supported interface and data</strong> for local emergency dispatch systems</li>
-                    </ul>
-                </div>
-
-                <div class="job">
-                    <div class="company">LUMETIX | East Windsor, CT</div>
-                    <div class="job-title">Founder & Engineer</div>
-                    <div class="job-date">September 2008 - June 2010</div>
-                    <div class="job-description">Established a software and hardware company with a partner to help build shipping and receiving solutions for small aerospace based companies.</div>
-                    <ul>
-                        <li><strong>Developed database and interface</strong> for distributed shipping and receiving locations</li>
-                        <li><strong>Updated network infrastructure</strong> to support new applications and remote locations</li>
-                        <li><strong>Developed central server with backup</strong> to shared access and office content</li>
-                    </ul>
-                </div>
+                <div id="work-section"></div>
 
                 <h2 class="section-subtitle">Education & Certifications</h2>
                 <div class="education-cert">
-                    <div class="education-item">
-                        <h3>SetFocus</h3>
-                        <p><strong>.NET Development Certificate</strong></p>
-                        <p style="color: var(--text-muted); font-size: 0.9em;">2008 - 2009</p>
+                    <div class="education-item" id="education-section">
                     </div>
-                    <div class="cert-item">
-                        <h3>Certifications</h3>
-                        <ul class="cert-list">
-                            <li><strong>Microsoft Certified Professional (MCPS)</strong> - June 2014</li>
-                            <li><strong>Programming in HTML5 with JavaScript and CSS3</strong> - June 2014</li>
-                            <li><strong>Essentials of Developing Windows Store Apps</strong> - August 2015</li>
-                        </ul>
+                    <div class="cert-item" id="certification-section">
                     </div>
                 </div>
 
                 <h2 class="section-subtitle">Technical Skills</h2>
-                <div class="skills-container">
-                    <div class="skill-category">
-                        <h3>Languages & Frameworks</h3>
-                        <p>JavaScript/TypeScript, C#, Python, Node.js, React, .NET Core, ASP.NET MVC, Vue.js</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Infrastructure</h3>
-                        <p>AWS (Lambda, API Gateway, S3), Kubernetes, Docker, Terraform, CI/CD, Microservices</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>API & Integration</h3>
-                        <p>RESTful Design, OpenAPI, OAuth 2.0, GraphQL, MuleSoft, Event-driven Architecture</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Data & Observability</h3>
-                        <p>SQL Server, MongoDB, Prometheus, Grafana, Splunk, Distributed Tracing</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Developer Experience</h3>
-                        <p>Developer Portals, Documentation Systems, CLI Development, Platform Engineering</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>AI/ML</h3>
-                        <p>GenAI Integration, LLM Development, Prompt Engineering (Claude, OpenAI, Anthropic)</p>
-                    </div>
-                </div>
+                <div class="skills-container" id="skills-section"></div>
             </section>
 
             <!-- PROJECTS SECTION -->
             <section id="projects">
                 <h1 class="page-title">Projects</h1>
-
-                <h2 class="section-subtitle">Featured Projects</h2>
-
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <h3>Personal Website</h3>
-                        <p class="project-description">My personal website to showcases my resume and portfolio of projects.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Claude</span>
-                            <span class="project-tag">GitHub Pages</span>
-                            <span class="project-tag">HTML/CSS/JS</span>
-                            <span class="project-tag">jsonresume</span>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <h3>Enterprise API Platform</h3>
-                        <p class="project-description">Enterprise API Platform to support API development, governance and security across the organization.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">OWASP</span>
-                            <span class="project-tag">API Design</span>
-                            <span class="project-tag">API Security</span>
-                            <span class="project-tag">Governance</span>
-                            <span class="project-tag">AWS API Gateway</span>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <h3>Engineering Assistant</h3>
-                        <p class="project-description">Enterprise conversational AI assistant to provide accurate engineering practices and guidance to engineers across the enterprise.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Bedrock</span>
-                            <span class="project-tag">Generative AI</span>
-                            <span class="project-tag">Conversational AI</span>
-                            <span class="project-tag">Knowledge Management</span>
-                            <span class="project-tag">LLM</span>
-                            <span class="project-tag">Experience</span>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <h3>Customer Identity Management Platform</h3>
-                        <p class="project-description">Architected, reviewed and implemented a customer identity management platform to support secure access to customer facing applications. Leveraged Okta as the identity provider and integrated with multiple applications across the enterprise.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Okta</span>
-                            <span class="project-tag">OAuth</span>
-                            <span class="project-tag">Identity Management</span>
-                            <span class="project-tag">Customer Experience</span>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <h3>Engineering Community of Practice</h3>
-                        <p class="project-description">Established and led the first Engineering Community of Practice for Travelers Technology to foster collaboration, share best practices, and drive continuous learning among software engineers across the org. Eventually this lead to the establishment of a full chapter across the Enterprise.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Experience</span>
-                            <span class="project-tag">Community</span>
-                            <span class="project-tag">Collaboration</span>
-                            <span class="project-tag">Learning</span>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <h3>ForAgents</h3>
-                        <p class="project-description">Redesign of the external agent portal for Travelers Insurance to improve user experience, reusability and content management for business users.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Insurance</span>
-                            <span class="project-tag">CMS</span>
-                            <span class="project-tag">C#</span>
-                            <span class="project-tag">JavaScript</span>
-                            <span class="project-tag">HTML/CSS</span>
-                            <span class="project-tag">Experience</span>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <h3>Treasuristry</h3>
-                        <p class="project-description">A simple web and mobile based app to track all of your collectibles across different mediums. Fast searching, photo based inventory, cross device syncing and basic social features all to support expanding your collections and managing them smartly.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Claude</span>
-                            <span class="project-tag">AWS</span>
-                            <span class="project-tag">Collections</span>
-                            <span class="project-tag">Product</span>
-                        </div>
-                    </div>
-                </div>
+                <div class="projects-grid" id="projects-grid"></div>
             </section>
         </div>
     </main>
 
     <script>
+        let resumeData = null;
+
+        // Load resume.json from assets
+        async function loadResumeData() {
+            try {
+                const response = await fetch('./assets/resume.json');
+                if (!response.ok) throw new Error('Failed to load resume.json');
+                resumeData = await response.json();
+                populatePage();
+            } catch (error) {
+                console.error('Error loading resume data:', error);
+            }
+        }
+
+        function populatePage() {
+            if (!resumeData) return;
+
+            // Populate home section
+            document.getElementById('hero-name').textContent = resumeData.basics.name;
+            document.getElementById('hero-tagline').textContent = resumeData.basics.label;
+            document.getElementById('location').textContent = `📍 ${resumeData.basics.location.address}`;
+            document.getElementById('email-link').href = `mailto:${resumeData.basics.email}`;
+            document.getElementById('email-link').textContent = `✉️ ${resumeData.basics.email}`;
+
+            resumeData.basics.profiles.forEach(profile => {
+                if (profile.network === 'LinkedIn') {
+                    document.getElementById('linkedin-link').href = profile.url;
+                    document.getElementById('linkedin-link').textContent = `🔗 ${profile.network}`;
+                }
+                if (profile.network === 'Twitter' || profile.username === 'jasonwilczak' && profile.url.includes('github')) {
+                    document.getElementById('github-link').href = `https://github.com/${profile.username}`;
+                    document.getElementById('github-link').textContent = `💻 GitHub`;
+                }
+            });
+
+            // Populate resume summary
+            document.getElementById('resume-summary').textContent = resumeData.basics.summary;
+
+            // Populate work experience
+            const workSection = document.getElementById('work-section');
+            resumeData.work.forEach(job => {
+                const jobHtml = `
+                    <div class="job">
+                        <div class="company">${job.name}</div>
+                        <div class="job-title">${job.position}</div>
+                        <div class="job-date">${formatDate(job.startDate)} - ${job.endDate ? formatDate(job.endDate) : 'Present'}</div>
+                        ${job.summary ? `<div class="job-description">${job.summary}</div>` : ''}
+                        ${job.highlights && job.highlights.length ? `
+                            <ul>
+                                ${job.highlights.map(h => `<li><strong>${h}</strong></li>`).join('')}
+                            </ul>
+                        ` : ''}
+                    </div>
+                `;
+                workSection.innerHTML += jobHtml;
+            });
+
+            // Populate education
+            const educationSection = document.getElementById('education-section');
+            if (resumeData.education && resumeData.education.length) {
+                educationSection.innerHTML = `
+                    <h3>${resumeData.education[0].institution}</h3>
+                    <p><strong>${resumeData.education[0].studyType}</strong></p>
+                    <p style="color: var(--text-muted); font-size: 0.9em;">${resumeData.education[0].startDate} - ${resumeData.education[0].endDate}</p>
+                `;
+            }
+
+            // Populate certifications
+            const certSection = document.getElementById('certification-section');
+            if (resumeData.certificates && resumeData.certificates.length) {
+                certSection.innerHTML = `
+                    <h3>Certifications</h3>
+                    <ul class="cert-list">
+                        ${resumeData.certificates.map(cert => `<li><strong>${cert.name}</strong> - ${cert.startDate}</li>`).join('')}
+                    </ul>
+                `;
+            }
+
+            // Populate skills
+            const skillsSection = document.getElementById('skills-section');
+            resumeData.skills.forEach(skill => {
+                const skillHtml = `
+                    <div class="skill-category">
+                        <h3>${skill.name}</h3>
+                        <p>${skill.keywords ? skill.keywords.join(', ') : ''}</p>
+                    </div>
+                `;
+                skillsSection.innerHTML += skillHtml;
+            });
+
+            // Populate projects
+            const projectsGrid = document.getElementById('projects-grid');
+            if (resumeData.projects) {
+                resumeData.projects.forEach(project => {
+                    const projectHtml = `
+                        <div class="project-card">
+                            <h3>${project.name}</h3>
+                            <p class="project-description">${project.description}</p>
+                            <div class="project-tags">
+                                ${project.keywords ? project.keywords.map(k => `<span class="project-tag">${k}</span>`).join('') : ''}
+                            </div>
+                        </div>
+                    `;
+                    projectsGrid.innerHTML += projectHtml;
+                });
+            }
+        }
+
+        function formatDate(dateString) {
+            if (!dateString) return '';
+            const date = new Date(dateString);
+            return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+        }
+
         document.addEventListener('DOMContentLoaded', function() {
             const savedTheme = localStorage.getItem('siteTheme') || 'fun-theme';
             applyTheme(savedTheme);
+            loadResumeData();
         });
 
         function showSection(sectionId) {
-            // Hide all sections
             const sections = document.querySelectorAll('section');
             sections.forEach(section => {
                 section.classList.remove('active');
             });
 
-            // Show the selected section
             const activeSection = document.getElementById(sectionId);
             if (activeSection) {
                 activeSection.classList.add('active');
             }
 
-            // Update active nav button
             const navBtns = document.querySelectorAll('.nav-btn');
             navBtns.forEach(btn => {
                 btn.classList.remove('active');
@@ -1056,13 +909,11 @@
                 }
             });
 
-            // Scroll to top
             window.scrollTo(0, 0);
         }
 
         function toggleTheme() {
             const body = document.body;
-            
             if (body.classList.contains('fun-theme')) {
                 applyTheme('clean-theme');
             } else {
@@ -1073,16 +924,9 @@
         function applyTheme(theme) {
             const body = document.body;
             const button = document.querySelector('.theme-toggle');
-            
             body.classList.remove('fun-theme', 'clean-theme');
             body.classList.add(theme);
-            
-            if (theme === 'fun-theme') {
-                button.textContent = '☀️';
-            } else {
-                button.textContent = '🌑';
-            }
-            
+            button.textContent = theme === 'fun-theme' ? '☀️' : '🌑';
             localStorage.setItem('siteTheme', theme);
         }
     </script>
